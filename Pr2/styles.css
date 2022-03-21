@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #ffffff;
+	display: flex;
+	padding-top: 5rem;
+	justify-content: center;
+	overflow: hidden;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+.row {
+	display: flex;
+	width: 600px;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+}
+
+.item {
+	width: 100px;
+	height: 100px;
+	background-image: url("http://pngimg.com/uploads/cat/small/cat_PNG1621.png");
+	background-size: cover;
+	margin: 10px auto;
+	cursor: grab;
+}
+
+.item:active {
+	background-image: url("http://pngimg.com/uploads/cat/small/cat_PNG1616.png");
+	cursor: grabbing;
+}
+
+.placeholder {
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+}
+
+.type1 {
+	background-image: url("https://petfood.ru/upload/iblock/cea/da1fab0e-54cb-11eb-a9df-10604b9c3fdf_644f55eb-54cc-11eb-a9df-10604b9c3fdf.jpg");
+}
+
+.type2 {
+	background-image: url("https://ae01.alicdn.com/kf/Hb455d912768f4035baadcfa23b7c2fc1m/-.jpg_q50.jpg");
+}
+
+.type3 {
+	background-image: url("http://ae01.alicdn.com/kf/HTB1JrkYXtzvK1RkSnfoq6zMwVXa9.jpg");
+}
+
+.hold {
+	background-image: url("http://pngimg.com/uploads/cat/small/cat_PNG1616.png");
+	transform: translate(0, 0);
+}
+
+.hide {
+	display: none;
+}
+
+.hovered {
+	overflow: hidden;
+	transform: scale(1.1);
+}
